@@ -1,0 +1,11 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.nuxeo.training.contractsmanagement
+Bundle-Version: 1.0.0
+Bundle-Name: contractsmanagement-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.nuxeo.training.contractsmanagement.contractsmanagement-core;singleton=true
+Nuxeo-Component: OSGI-INF/checkuserpermission-operation-contrib.xml,
+ OSGI-INF/org.nuxeo.training.contractsmanagementcontract-adapter-contrib.xml,
+ OSGI-INF/customcreationhandler-listener-contrib.xml

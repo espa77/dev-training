@@ -1,0 +1,7 @@
+<component name="org.nuxeo.ecm.contractsmanagment.permissions">
+    <require>org.nuxeo.ecm.core.security.SecurityService</require>
+
+
+
+
+</component>

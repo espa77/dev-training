@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.training.contractsmanagement.adapters.contract">
+
+  <extension target="org.nuxeo.ecm.core.api.DocumentAdapterService" point="adapters">
+    <adapter class="org.nuxeo.training.contractsmanagement.ContractAdapter" factory="org.nuxeo.training.contractsmanagement.ContractAdapterFactory"/>
+  </extension>
+
+</component>
